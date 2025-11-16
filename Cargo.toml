@@ -1,0 +1,14 @@
+[package]
+name = "r36s_input_demo"
+description = "Joystick input demo for R36S game console"
+version = "0.1.0"
+edition = "2021"
+authors = ["Luiz Ferreira <contato@luizferreira.io>"]
+license = "GPL-3.0"
+repository = "https://github.com/luizferreira-io/r36s-input-demo"
+keywords = ["joystick", "gamepad", "r36s", "tui", "input"]
+
+[dependencies]
+ratatui = "0.29"
+crossterm = "0.28"
+libc = "0.2"
