@@ -130,7 +130,7 @@ if [ -z "$ESUDO" ]; then
 fi
 
 $ESUDO chmod 666 /dev/tty1 2>/dev/null
-$ESUDO chmod 666 /dev/input/event* 2>/dev/null
+$ESUDO chmod 666 /dev/input/js0 2>/dev/null
 $ESUDO chmod +x ./r36s_input_demo
 
 $ESUDO ./r36s_input_demo < /dev/tty1 > /dev/tty1 2>&1
